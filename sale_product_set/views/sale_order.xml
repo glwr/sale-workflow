@@ -11,9 +11,9 @@
                     type="action"
                     name="%(act_open_wizard_product_set_add_from_order)d"
                     icon="fa-cubes"
-                    attrs="{'invisible': [('state','not in',('draft','sent'))]}"
+                    attrs="{'invisible': [('state','not in',('draft','sent','sale'))]}"
                     groups="base.group_user"
-                    string="Add set"
+                    string="Add Product set"
                 />
             </xpath>
         </field>
